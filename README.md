@@ -17,6 +17,10 @@ SmooAI is an AI-powered platform for helping businesses multiply their customer,
 
 Learn more on [smoo.ai](https://smoo.ai)
 
+## SmooAI Packages
+
+Check out other SmooAI packages at [npmjs.com/org/smooai](https://www.npmjs.com/org/smooai)
+
 ## About @smooai/config-typescript
 
 Collection of internal TypeScript configurations used across SmooAI projects. This package provides standardized TypeScript configurations to ensure consistent type checking and compilation settings across all SmooAI repositories.
