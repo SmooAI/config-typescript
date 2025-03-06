@@ -1,41 +1,41 @@
 {
-  "name": "@smooai/config-typescript",
-  "version": "1.0.1",
-  "description": "An opinionated TypeScript configuration package for SmooAI.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SmooAI/config-typescript.git"
-  },
-  "keywords": [
-    "typescript",
-    "config",
-    "tsconfig",
-    "opinionated",
-    "smooai"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "files": [
-    "base.json",
-    "nextjs.json",
-    "react-app.json",
-    "react-library.json",
-    "vite.json"
-  ],
-  "devDependencies": {
-    "typescript": "^5.8.2"
-  },
-  "peerDependencies": {
-    "typescript": ">=5.0.0"
-  },
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "preinstall": "npx only-allow pnpm"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@smooai/config-typescript",
+    "version": "1.0.0",
+    "description": "An opinionated TypeScript configuration package for SmooAI.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SmooAI/config-typescript.git"
+    },
+    "keywords": [
+        "typescript",
+        "config",
+        "tsconfig",
+        "opinionated",
+        "smooai"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "files": [
+        "base.json",
+        "nextjs.json",
+        "react-app.json",
+        "react-library.json",
+        "vite.json"
+    ],
+    "devDependencies": {
+        "typescript": "^5.8.2"
+    },
+    "peerDependencies": {
+        "typescript": ">=5.0.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "scripts": {
+        "preinstall": "npx only-allow pnpm"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
