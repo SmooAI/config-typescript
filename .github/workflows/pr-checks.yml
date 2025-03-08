@@ -8,7 +8,6 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    if: contains(github.head_ref, 'smooai-auto-update-')
 
     steps:
       - uses: actions/checkout@v4
@@ -47,22 +46,13 @@ jobs:
             pnpm test
           else
             echo "No test script found, skipping"
+
+      - name: Build
+        run: |
+          if grep -q "\"build\":" package.json; then
+            pnpm build
+          else
+            echo "No build script found, skipping"
           fi
 
-      - name: Auto-merge and trigger publish
-        if: success()
-        run: |
-          # Merge the PR
-          gh pr merge \
-            --squash \
-            --auto \
-            --delete-branch \
-            "${{ github.event.pull_request.number }}"
-
-          # Wait a moment for the merge to complete
-          sleep 5
-
-          # Trigger publish workflow
-          gh workflow run publish.yml
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+      
