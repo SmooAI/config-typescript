@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.6
+
+### Patch Changes
+
+- 0b98f6b: Updated the changeset/release github action.
+
 ## 1.0.5
 
 ### Patch Changes
