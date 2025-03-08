@@ -41,10 +41,14 @@ jobs:
       - name: Auto-Merge Changeset PR
         run: |
           PR_NUMBER=$(gh pr list --state open --head changeset-release/main --json number --jq '.[0].number')
-          
+
           if [[ -n "$PR_NUMBER" && "$PR_NUMBER" != "null" ]]; then
             echo "Found Changeset PR #$PR_NUMBER, attempting to auto-merge..."
             gh pr merge "$PR_NUMBER" --auto --squash
+            
+            # Re-trigger the Release workflow
+            echo "Re-triggering the release workflow..."
+            gh workflow run release.yml
           else
             echo "No open Changeset PR found, skipping merge."
           fi
