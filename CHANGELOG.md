@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.8
+
+### Patch Changes
+
+- 9721a6f: Fixed the release action to auto release and updated the Readme with contribution guidelines.
+
 ## 1.0.7
 
 ### Patch Changes
