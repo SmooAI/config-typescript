@@ -1,5 +1,12 @@
 # @smooai/config-typescript
 
+## 1.0.7
+
+### Patch Changes
+
+- 76a75f8: Add Github Action to auto merge changeset PRs for publishing.
+- 17c9a05: Add auto merge to changeset action.
+
 ## 1.0.6
 
 ### Patch Changes
