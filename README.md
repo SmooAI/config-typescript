@@ -27,6 +27,14 @@ Collection of internal TypeScript configurations used across SmooAI projects. Th
 
 Derived from `@turbo/config-typescript`.
 
+![NPM Version](https://img.shields.io/npm/v/%40smooai%2Fconfig-typescript?style=for-the-badge)
+![NPM Downloads](https://img.shields.io/npm/dw/%40smooai%2Fconfig-typescript?style=for-the-badge)
+![NPM Last Update](https://img.shields.io/npm/last-update/%40smooai%2Fconfig-typescript?style=for-the-badge)
+
+![GitHub License](https://img.shields.io/github/license/SmooAI/config-typescript?style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/SmooAI/config-typescript/release.yml?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/SmooAI/config-typescript?style=for-the-badge)
+
 ### Installation
 
 ```sh
