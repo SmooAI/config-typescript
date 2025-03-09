@@ -1,6 +1,6 @@
 {
   "name": "@smooai/config-typescript",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "An opinionated TypeScript configuration package for SmooAI.",
   "repository": {
     "type": "git",

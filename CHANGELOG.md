@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.11
+
+### Patch Changes
+
+- bdef8bf: Added badges.
+
 ## 1.0.10
 
 ### Patch Changes
