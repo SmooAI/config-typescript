@@ -1,6 +1,6 @@
 {
   "name": "@smooai/config-typescript",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "An opinionated TypeScript configuration package for SmooAI.",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "typescript": ">=5.0.0"
+    "typescript": "^5.8.2"
   },
   "engines": {
     "node": ">=20.0.0"
