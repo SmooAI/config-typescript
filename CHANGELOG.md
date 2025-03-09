@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.12
+
+### Patch Changes
+
+- 74c0084: Updated package description."
+
 ## 1.0.11
 
 ### Patch Changes
