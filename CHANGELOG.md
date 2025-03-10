@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.13
+
+### Patch Changes
+
+- 8273cee: Update author / bugs / homepage.
+
 ## 1.0.12
 
 ### Patch Changes
