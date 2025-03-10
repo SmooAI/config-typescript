@@ -2,6 +2,15 @@
   "name": "@smooai/config-typescript",
   "version": "1.0.12",
   "description": "Collection of internal TypeScript configurations used across SmooAI projects. This package provides standardized TypeScript configurations to ensure consistent type checking and compilation settings across all SmooAI repositories.",
+  "author": {
+        "name": "SmooAI",
+        "email": "brent@smooai.com",
+        "url": "https://smooai.com"
+    },
+    "bugs": {
+    "url": "https://github.com/SmooAI/config-typescript/issues"
+  },
+  "homepage": "https://github.com/SmooAI/config-typescript#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/SmooAI/config-typescript.git"
