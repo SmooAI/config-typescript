@@ -1,53 +1,59 @@
 {
-  "name": "@smooai/config-typescript",
-  "version": "1.0.12",
-  "description": "Collection of internal TypeScript configurations used across SmooAI projects. This package provides standardized TypeScript configurations to ensure consistent type checking and compilation settings across all SmooAI repositories.",
-  "author": {
+    "name": "@smooai/config-typescript",
+    "version": "1.0.12",
+    "description": "Collection of internal TypeScript configurations used across SmooAI projects. This package provides standardized TypeScript configurations to ensure consistent type checking and compilation settings across all SmooAI repositories.",
+    "keywords": [
+        "typescript",
+        "config",
+        "tsconfig",
+        "opinionated",
+        "smooai"
+    ],
+    "homepage": "https://github.com/SmooAI/config-typescript#readme",
+    "bugs": {
+        "url": "https://github.com/SmooAI/config-typescript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SmooAI/config-typescript.git"
+    },
+    "license": "MIT",
+    "author": {
         "name": "SmooAI",
         "email": "brent@smooai.com",
         "url": "https://smooai.com"
     },
-    "bugs": {
-    "url": "https://github.com/SmooAI/config-typescript/issues"
-  },
-  "homepage": "https://github.com/SmooAI/config-typescript#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SmooAI/config-typescript.git"
-  },
-  "keywords": [
-    "typescript",
-    "config",
-    "tsconfig",
-    "opinionated",
-    "smooai"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "files": [
-    "base.json",
-    "nextjs.json",
-    "react-app.json",
-    "react-library.json",
-    "vite.json"
-  ],
-  "devDependencies": {
-    "@changesets/cli": "^2.28.1",
-    "typescript": "^5.8.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.8.2"
-  },
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "ci:publish": "pnpm publish -r"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "packageManager": "pnpm@10.6.1+sha512.40ee09af407fa9fbb5fbfb8e1cb40fbb74c0af0c3e10e9224d7b53c7658528615b2c92450e74cfad91e3a2dcafe3ce4050d80bda71d757756d2ce2b66213e9a3"
+    "main": "index.js",
+    "types": "index.d.ts",
+    "files": [
+        "base.json",
+        "nextjs.json",
+        "react-app.json",
+        "react-library.json",
+        "vite.json"
+    ],
+    "scripts": {
+        "ci:publish": "pnpm publish -r",
+        "format": "prettier --write \"**/*.{ts,tsx,md,json,js,cjs,mjs}\"",
+        "preinstall": "npx only-allow pnpm",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.28.1",
+        "@vercel/style-guide": "^6.0.0",
+        "husky": "^9.1.7",
+        "prettier": "^3.5.3",
+        "prettier-plugin-packagejson": "^2.5.10",
+        "typescript": "^5.8.2"
+    },
+    "peerDependencies": {
+        "typescript": "^5.8.2"
+    },
+    "packageManager": "pnpm@10.6.1+sha512.40ee09af407fa9fbb5fbfb8e1cb40fbb74c0af0c3e10e9224d7b53c7658528615b2c92450e74cfad91e3a2dcafe3ce4050d80bda71d757756d2ce2b66213e9a3",
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

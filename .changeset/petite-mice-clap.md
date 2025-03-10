@@ -1,5 +1,5 @@
 ---
-"@smooai/config-typescript": patch
+'@smooai/config-typescript': patch
 ---
 
 Update author / bugs / homepage.
