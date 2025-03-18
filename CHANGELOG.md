@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.14
+
+### Patch Changes
+
+- 8690063: Fix publish for Github releases.
+
 ## 1.0.13
 
 ### Patch Changes
