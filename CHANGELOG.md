@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.15
+
+### Patch Changes
+
+- a7d1ad1: Update dependencies.
+
 ## 1.0.14
 
 ### Patch Changes
