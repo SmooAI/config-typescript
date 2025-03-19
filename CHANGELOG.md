@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.16
+
+### Patch Changes
+
+- 946ba40: Upgraded to Node 22.
+
 ## 1.0.15
 
 ### Patch Changes
