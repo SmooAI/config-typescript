@@ -1,5 +1,11 @@
 # @smooai/config-typescript
 
+## 1.0.17
+
+### Patch Changes
+
+- 9be7d75: Add `ignoreDeprecations: '6.0'` to `base.json` so consumer packages with `baseUrl` don't fail typecheck on newer TypeScript versions. TS 6.x escalates `baseUrl` from a warning to a deprecation error.
+
 ## 1.0.16
 
 ### Patch Changes
