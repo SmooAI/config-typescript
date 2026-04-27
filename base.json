@@ -17,7 +17,8 @@
         "skipLibCheck": true,
         "strict": true,
         "noEmit": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "ignoreDeprecations": "6.0"
     },
     "exclude": ["node_modules"]
 }
