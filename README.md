@@ -1,25 +1,22 @@
 <p align="center">
-  <a href="https://smoo.ai"><img src="https://smoo.ai/images/logo/logo.svg" alt="Smoo AI" width="220" /></a>
-</p>
-
-<h1 align="center">@smooai/config-typescript</h1>
-
-<p align="center">
-  <strong>Shared TypeScript configs that keep type checking and compilation consistent across every Smoo AI project.</strong>
+  <a href="https://smoo.ai"><img src=".github/banner.png" alt="@smooai/config-typescript — Shared TypeScript configs for every project" width="100%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@smooai/config-typescript"><img src="https://img.shields.io/npm/v/@smooai/config-typescript?style=flat-square&color=00A6A6&label=npm" alt="npm"></a>
-  <img src="https://img.shields.io/badge/Smoo_AI-platform-00A6A6?style=flat-square" alt="Smoo AI">
-  <img src="https://img.shields.io/badge/license-MIT-F49F0A?style=flat-square" alt="license">
+  <a href="https://www.npmjs.com/package/@smooai/config-typescript"><img src="https://img.shields.io/npm/v/@smooai/config-typescript?style=for-the-badge&color=00A6A6&label=npm&logo=npm&logoColor=white&labelColor=020618" alt="npm"></a>
+  <a href="https://smoo.ai"><img src="https://img.shields.io/badge/Smoo_AI-platform-00A6A6?style=for-the-badge&labelColor=020618" alt="Smoo AI"></a>
+  <img src="https://img.shields.io/badge/license-MIT-F49F0A?style=for-the-badge&labelColor=020618" alt="license">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> ·
-  <a href="#-install">Install</a> ·
-  <a href="#-usage">Usage</a> ·
-  <a href="#-part-of-smoo-ai">Platform</a>
+  <a href="#-features"><b>Features</b></a> &nbsp;·&nbsp;
+  <a href="#-install"><b>Install</b></a> &nbsp;·&nbsp;
+  <a href="#-usage"><b>Usage</b></a> &nbsp;·&nbsp;
+  <a href="#-part-of-smoo-ai"><b>Platform</b></a>
 </p>
 
 ---
@@ -65,11 +62,10 @@ Swap `base.json` for the preset that matches your target (Node, React, Next.js, 
 
 ## 🧩 Part of Smoo AI
 
-`@smooai/config-typescript` is part of the [Smoo AI](https://smoo.ai) platform — an AI-powered business platform with AI built into every product. Browse the rest of our open-source packages at [npmjs.com/org/smooai](https://www.npmjs.com/org/smooai), including:
+`@smooai/config-typescript` is built and open-sourced by **[Smoo AI](https://smoo.ai)** — the AI-powered business platform with AI built into every product: CRM, customer support, campaigns, field service, observability, and developer tools.
 
-- [@smooai/config](https://github.com/SmooAI/config) — type-safe config, secrets, and feature flags
-- [@smooai/logger](https://github.com/SmooAI/logger) — contextual logging for AWS and the browser
-- [@smooai/fetch](https://github.com/SmooAI/fetch) — resilient, type-safe HTTP client
+- 🧰 **More open source from Smoo AI** — [smoo.ai/open-source](https://smoo.ai/open-source)
+- 🧩 **Sibling packages** — [@smooai/config](https://github.com/SmooAI/config), [@smooai/logger](https://github.com/SmooAI/logger), [@smooai/fetch](https://github.com/SmooAI/fetch)
 
 ## 🤝 Contributing
 
