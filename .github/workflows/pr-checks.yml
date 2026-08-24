@@ -15,13 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      
-      - uses: pnpm/action-setup@v4
+      # Toolchains come from mise.toml, read here by mise-action so the runner
+      # and a developer's shell resolve identical versions.
+      - name: Setup toolchains (mise)
+        uses: jdx/mise-action@v4
 
+      - uses: pnpm/action-setup@v4
 
       - name: Install dependencies
         run: pnpm install
